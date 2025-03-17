@@ -1,6 +1,5 @@
 package ru.chern.weather.WeatherCheck.Frontend;
 
-import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -8,9 +7,8 @@ import com.vaadin.flow.component.textfield.NumberField;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.PreserveOnRefresh;
 import com.vaadin.flow.router.Route;
-import elemental.json.impl.JsonUtil;
 import org.springframework.web.client.RestTemplate;
-import ru.chern.weather.WeatherCheck.WeatherDTO;
+import ru.chern.weather.WeatherCheck.DTO.WeatherDTO;
 @PreserveOnRefresh
 @Route("")
 @PageTitle("Погода")
